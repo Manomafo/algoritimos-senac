@@ -9,8 +9,11 @@
 // Quero que na tela seja impresso na saída os nomes, Sofia, Isabella e Alice.
 // Dica: Será necessário utilizar um recurso chamado ARRAY
 
-let nomes = ["Sofia", "Lucas", "Isabella", "Matheus", "Alice"];
+// let nomes = ["Sofia", "Lucas", "Isabella", "Matheus", "Alice"];
 
-for (let index = 0; index < nomes.length; index++) {
-  console.log(nomes[index]);
-}
+// for (let index = 0; index < nomes.length; index++) {
+//   console.log(nomes[index]);
+// }
+
+let nomes = ["Sofia", "Lucas", "Isabella", "Matheus", "Alice"];
+console.log(nomes.pop());
